@@ -16,10 +16,7 @@
   background-color: var(--page-background-color, #000028);
   background-image: var(
     --page-background-image,
-    image-set(
-      url("../images/cover-image.png") 1x,
-      url("../images/cover-image.png") 2x
-    )
+    url("../images/cover-image.png")
   );
   background-position: center;
   background-size: cover;
@@ -242,7 +239,6 @@
 
   .page-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    transform: translateX(-20px);
   }
 
   .section {
@@ -277,6 +273,10 @@
     grid-row-start: span 2;
   }
 
+  .header {
+    padding-inline-start: 0;
+  }
+
   .header__theme-menu {
     margin-block-start: 170px;
     margin-block-end: 70px;
@@ -284,7 +284,7 @@
 
   .header__title {
     justify-self: end;
-    inline-size: clamp(364px, calc(100% / 2), 491px);
+    inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
   }
 
   .main {
@@ -308,6 +308,7 @@
 
   .header__theme-menu {
     justify-self: center;
+    margin-inline-start: 20px;
     margin-block-start: 0;
     margin-block-end: 215px;
   }
