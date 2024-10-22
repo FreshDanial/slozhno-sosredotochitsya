@@ -24,4 +24,8 @@
   --page-background-color: var(--color-black-1, #000028);
 
   --rec-decor-visibility: visible;
+
+  --min-font-size: 16px;
+  --preferred-font-size: 2vw;
+  --max-font-size: 24px;
 }

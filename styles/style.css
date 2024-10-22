@@ -93,7 +93,7 @@
   content: "";
   display: inline-block;
   border-radius: 50%;
-  box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
+  box-shadow: 0 0 4px 2px var(--accent-color, #ff0070);
   background: var(--accent-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
@@ -161,6 +161,8 @@
 
 .header {
   align-items: start;
+  height: 100vh;
+  min-height: 668px;
 }
 
 .header__theme-menu {
@@ -206,7 +208,7 @@
   margin-block: 55px;
   color: var(--highlight-color, #000028);
   font-weight: 700;
-  font-size: inherit;
+  font-size: clamp(var(--min-font-size), var(--preferred-font-size), var(--max-font-size));
   line-height: inherit;
   background: var(--accent-color, #ff0070);
 }
@@ -227,6 +229,8 @@
 
 .footer {
   place-items: center;
+  height: 100vh;
+  min-height: 668px;
 }
 
 /* #endregion Конец блока footer */
