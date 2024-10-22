@@ -25,7 +25,5 @@
 
   --rec-decor-visibility: visible;
 
-  --min-font-size: 16px;
-  --preferred-font-size: 2vw;
-  --max-font-size: 24px;
+  --font-size: 18px;
 }

@@ -208,7 +208,7 @@
   margin-block: 55px;
   color: var(--highlight-color, #000028);
   font-weight: 700;
-  font-size: clamp(var(--min-font-size), var(--preferred-font-size), var(--max-font-size));
+  font-size: clamp(var(--font-size, 18px ));
   line-height: inherit;
   background: var(--accent-color, #ff0070);
 }
