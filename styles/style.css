@@ -1,7 +1,7 @@
 /* #region Начало вспомогательных классов */
 
 .shadow-decor {
-  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  text-shadow: 1px 1px 0 var(--accent-color, #ff0070);
 }
 
 /* #endregion Конец вспомогательных классов  */
@@ -61,7 +61,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1.5px solid var(--text-color, #353430);
 }
 
 .link:focus {
@@ -139,7 +139,7 @@
 
 .article {
   display: grid;
-  gap: 10px;
+  gap: 5px;
 }
 
 .gallery-list {
