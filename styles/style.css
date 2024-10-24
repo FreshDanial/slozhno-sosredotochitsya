@@ -118,7 +118,16 @@
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
 }
-
+.title-how {
+  color: var(--secondary-color, #ff0070);
+  font-weight: 400;
+  font-size: inherit;
+  line-height: inherit;
+}
+.title-decor-how {
+  color: var(--highlight-color, #000028);
+  background: var(--accent-color, #ff0070);
+}
 .section {
   display: grid;
   gap: 20px;
@@ -139,7 +148,7 @@
 
 .article {
   display: grid;
-  gap: 5px;
+  gap: 10px;
 }
 
 .gallery-list {
